@@ -1,0 +1,23 @@
+/* Header */
+.header-navigation__link {
+    text-decoration: none;
+    color: var(--C2);
+    font-size: 1.8rem;
+    transition: all .2s;
+}
+
+.header-navigation__link:hover {
+    color: white;
+}
+
+.header-navigation__link:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.header_img {
+    height: 8rem;
+}
+
+.header-navigation {
+    margin-top: 2rem;
+}

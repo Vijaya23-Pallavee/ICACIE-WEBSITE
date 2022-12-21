@@ -22,6 +22,46 @@
     margin-top: 2rem;
 }
 
+.header-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.header-search__input {
+    font-family: inherit;
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 2px solid var(--C7);
+    padding: 1rem 2rem;
+    width: 80%;
+    transition: all .8s;
+    margin-right: -2.5rem;
+    background-color: inherit;
+}
+
+.header-search__input:focus {
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid var(--C1);
+}
+
+.header-search__button {
+    border: none;
+    cursor: pointer;
+    color: var(--C7);
+    background-color: inherit;
+}
+
+.header-search__button:active {
+    transform: translateY(2px);
+}
+
+.header-search__input:focus + .header-search__button {
+    color: var(--C1);
+}
+
 
 /* Footer */
 .footer-content__text {

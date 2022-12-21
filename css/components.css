@@ -21,3 +21,32 @@
 .header-navigation {
     margin-top: 2rem;
 }
+
+
+/* Footer */
+.footer-content__text {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-navigation__link {
+    text-decoration: none;
+    color: var(--C2);
+    font-size: 1.4rem;
+}
+
+.footer-navigation__link:hover {
+    color: white;
+}
+
+.footer-navigation__link:not(:last-child) {
+    margin-right: 2rem;
+}

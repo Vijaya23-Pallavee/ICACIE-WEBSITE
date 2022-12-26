@@ -90,3 +90,9 @@
 .footer-navigation__link:not(:last-child) {
     margin-right: 2rem;
 }
+
+
+/* Message */
+.message__text{
+    font-size: 1.8rem;
+}

@@ -32,6 +32,12 @@
 }
 
 
+/* Banner */
+.page-banner {
+    display: flex;
+    padding: 0 10rem;
+}
+
 
 
 

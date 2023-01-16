@@ -242,3 +242,38 @@
 }
 
 
+/* Journal */
+.journal__title {
+    text-align: center;
+    color: var(--C2);
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.journal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.journal-content-parag {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.journal-content-parag__text {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.journal-cover{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.journal-cover__img:not(:last-child) {
+    margin-right: 2rem;
+}
+

@@ -51,6 +51,17 @@
 }
 
 
+/* Sponsor */
+.sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 0 2rem;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+}
+
+
 
 
 

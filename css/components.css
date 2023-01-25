@@ -369,3 +369,65 @@
 .flip-card-back__title {
     font-size: 2rem;
 }
+
+
+
+/* Venue Page */ 
+.main-content-venue__title {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--C1);
+}
+
+.venue-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.venue-box {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 2rem 0;
+}
+
+.venue-box__title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--C1);
+}
+
+.venue-box__subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.venue-box__text {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.venue-box-button {
+    font-family: inherit;
+    background-color: var(--C1);
+    border: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.venue-box-button:hover {
+    background-color: var(--C2);
+}

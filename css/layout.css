@@ -68,6 +68,12 @@
 }
 
 
+/* Venue Page */
+.main-content-venue {
+    padding: 8rem;
+}
+
+
 
 /* Responsive layout - Home Page */ 
 @media  screen and (max-width: 700px) { 

@@ -431,3 +431,62 @@
 .venue-box-button:hover {
     background-color: var(--C2);
 }
+
+
+/* Travel Page */
+.main-content-travel__title {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--C1);
+}
+
+.travel-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.travel-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 2rem 0;
+}
+
+.travel-box__title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--C1);
+}
+
+.travel-box__text {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.travel-box-button {
+    font-family: inherit;
+    background-color: var(--C1);
+    border: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.travel-box-button:hover {
+    background-color: var(--C2);
+}
+
+.travel-box:not(:last-child) {
+    border-bottom: 1px solid var(--C1);
+}

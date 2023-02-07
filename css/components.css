@@ -490,3 +490,77 @@
 .travel-box:not(:last-child) {
     border-bottom: 1px solid var(--C1);
 }
+
+
+/* Sightseeing Page */
+.main-content-sightseeing__title {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--C1);
+}
+
+.sightseeing-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sightseeing-box {
+    background-color: whitesmoke;
+    display: flex;
+    padding: 4rem;
+    margin: 2rem 0;
+}
+
+.sightseeing-box__title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--C1);
+}
+
+.sightseeing-box__text {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.sightseeing-box-button {
+    font-family: inherit;
+    background-color: var(--C1);
+    border: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sightseeing-box-button:hover {
+    background-color: var(--C2);
+}
+
+.sightseeing-box:not(:last-child) {
+    border-bottom: 1px solid var(--C1);
+}
+
+.sightseeing-box-image {
+    flex: 0 0 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -4rem -4rem -4rem;
+    margin-right: 5rem;
+}
+
+.sightseeing-box-content {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.sightseeing-box-image--1 {
+    background-image: url("../img/waterfall.jpg");
+}
